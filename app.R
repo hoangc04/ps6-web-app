@@ -3,7 +3,6 @@ library(tidyverse)
 library(plotly)
 library(dplyr)
 
-health <- read.delim("student-mental-health.csv")
 uah <- read.delim("UAH-lower-troposphere-long.csv.bz2")
 
 ui <- fluidPage(
